@@ -1,0 +1,378 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    box-sizing: border-box;
+    background-image: url(img/bg-img.png);
+    background-size: auto;
+}
+
+/* wrapper-imgbox */
+
+.wrapper-imgbox{
+    position: relative;
+    height: 730px;
+    width: 90%;
+    margin: 0 auto;
+    clip-path: circle( 600px );
+}
+
+.wrapper-img{
+    text-align: center;
+    padding-top: 18px;
+   margin-bottom: -400px;
+}
+
+.wrapper-logo{
+    text-align: center;
+    position: relative;
+    right: 30%;
+    bottom: 120px;
+    left: 0;
+}
+
+.wrapper-information{
+    position: relative;
+    width: 30%;
+    left: 56%;
+    bottom: 250px;
+    height: 0;
+}
+
+/* header */
+
+header{
+    z-index: 10;
+}
+
+.navbar{
+    height: 100px;
+    color: white;
+}
+
+header.fixed {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-item a{
+    font-size: 13px;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+.nav-item img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-item{
+    text-align: center;
+    width: 135px;
+}
+
+#navbarNav ul{
+    padding-left: 230px;
+}
+
+/* main-topbg-img */
+
+.main-topbg-img{
+    margin-top: 20px;
+    background-image: url(img/main-topbg-img.png);
+    background-size: auto;
+    height: 70px;
+}
+
+/* main-content */
+
+.main-content{
+    height: 600px;
+    background-color: #82dae6;
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+}
+
+.main-content-title{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.main-content-img{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.main-content-img img{
+    width: 450px;
+    height: 500px;
+}
+
+/* main-bottombg-img */
+
+.main-bottombg-img{
+    background-image: url(img/main-bottombg-img.png);
+    background-size: auto;
+    height: 70px;
+}
+
+/* treatment-contents */
+
+.treatment-contents{
+    height: 390px;
+}
+
+.treatment-contents-title{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.treatment-contents-imgbox{
+    text-align: center;
+}
+
+.treatment-contents-btn{
+    position: relative;
+    left: 79%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+/* feature-contents */
+
+.feature-contents{
+    height: 930px;
+    background-image: url(img/feature-contents-bgimg.png);
+    background-size: auto;
+}
+
+.feature-contents-title{
+    text-align: center;
+    padding-top: 35px;
+}
+
+.feature-contents-imgbox{
+    margin-top: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature-contents-imgbox img{
+    border-radius: 20px;
+}
+
+.feature-contents-number{
+    position: relative;
+    top: 30px;
+    height: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature-contents-number img{
+    width: 70px;
+    height: 70px;
+}
+
+.feature-contents-number-img1{
+    position: relative;
+    right: 220px;
+}
+
+.feature-contents-number-img2{
+    position: relative;
+    right: 155px;
+}
+
+.feature-contents-number-img3{
+    position: relative;
+    right: 95px;
+}
+
+.feature-contents-textbox{
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 100px;
+    padding-left: 100px;
+}
+
+.feature-contents-textbox p{
+    font-size: 15px;
+}
+
+.feature-contents-textbox h2{
+    font-size: 25px;
+}
+
+.feature-contents-text1{
+    width: 380px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    left: 40px;
+}
+
+.feature-contents-text2{
+    width: 380px;
+    height: 200px;
+    background-color: rgb(255, 255, 255, 0.6);
+    position: relative;
+    left: 40px;
+}
+
+.feature-contents-text3{
+    width: 380px;
+    height: 200px;
+    background-color: rgb(255, 255, 255, 0.6);
+    position: relative;
+    left: 40px;
+}
+
+/* main-bg-img */
+
+.main-bg-img{
+    height: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* bottom-information */
+
+.bottom-information{
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    height: 780px;
+}
+
+.bottom-information-textbox{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    left: 46%;
+}
+
+.bottom-information-textbox h2{
+    font-size: 33px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.bottom-information-textbox p{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 14px;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+    width: 370px;
+    margin: 0 auto;
+    color: white;
+}
+
+.bottom-information-textbox span{
+    padding-right: 20px;
+}
+
+.bottom-information-title{
+    text-align: center;
+}
+
+.bottom-information-imgbox{
+    position: relative;
+    left: 20%;
+    bottom: 20px;
+    width: 50%;
+}
+
+.bottom-information-imgbox img{
+    height: 250px;
+    width: 250px;
+}
+
+.bottom-information-staff{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+}
+
+/* sns-imgbox */
+
+.sns-imgbox{
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: -50px;
+}
+
+.twitter-imgbox{
+    position: relative;
+    left: 100px;
+}
+
+.instagram-imgbox{
+    position: relative;
+    right: 100px;
+}
+
+/* information-map */
+
+.information-map{
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+/* footer */
+
+footer{
+    height: 200px;
+    background-image: url(img/footer-bg.png);
+    background-size: auto;
+}
+
+.footer{
+    font-family: "Tsukushi A Round Gothic","筑紫A丸ゴシック";
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-logo{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.footer-information{
+    text-align: center;
+    position: relative;
+    left: 130px;
+    top: 20px;
+    padding-top: 25px;
+}
+
+.footer-information i{
+    padding-right: 10px;
+}
+
+.footer-information p{
+    font-size: 15px;
+}
+
+.footer-img{
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+
+
+
+
+
+
+
